@@ -51,19 +51,19 @@ async def on_message(message):
             if (num_months > 1):
                 app = " " + str(num_months) + " months,"
             else:
-                app = " " + str(num_months) +  "month,"
+                app = " " + str(num_months) +  " month,"
             out_str+=app
         if (num_days > 0):
             if (num_days > 1):
                 app = " " + str(num_days) + " days,"
             else:
-                app = " " + str(num_days) +  "day,"
+                app = " " + str(num_days) +  " day,"
             out_str+=app
         if (num_hours > 0):
             if (num_hours > 1):
                 app = " " + str(num_hours) + " hours,"
             else:
-                app = " " + str(num_hours) +  "hour,"
+                app = " " + str(num_hours) +  " hour,"
             out_str+=app
         
         out_str = out_str[:-1]
