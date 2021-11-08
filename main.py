@@ -16,7 +16,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if 'where' in message.content and 'nick' in message.content:
+    if 'where' in message.content.lower() and 'nick' in message.content.lower():
         then = gone_date
         now  = datetime.now()
         duration = now - then
