@@ -39,7 +39,7 @@ async def on_message(message):
         mins = hours / 60
         num_mins = int(mins)
 
-        out_str = "Nick abandoned his friends! He has been gone for"
+        out_str = "Nick (<@!218242712061739008>) abandoned his friends! He has been gone for"
 
         if (num_years > 0):
             if (num_years > 1):
