@@ -5,7 +5,7 @@ from datetime import datetime
 
 client = discord.Client()
 
-gone_date = datetime(2021, 5, 28, 17, 3, 11)
+gone_date = datetime(2021, 5, 28, 7, 3, 0)
 
 @client.event
 async def on_ready():
