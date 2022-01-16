@@ -73,6 +73,8 @@ async def on_message(message):
         else:
             out_str+=" and " + str(num_mins) + " minute."
             await message.channel.send(out_str)
+    if 'goodbye' in message.content.lower() and 'bot' in message.content.lower():
+        await message.channel.send("Goodbye! <:Okayge:689019298605563945>")
         
 
 load_dotenv()
